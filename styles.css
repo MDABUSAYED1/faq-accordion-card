@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Kumbh Sans", sans-serif;
+  text-align: center;
+  color: hsl(238, 29%, 16%);
+}
+
+.container {
+  margin-top: 140px;
+  font-size: 0.75rem;
+  width: 1100px;
+  height: 580px;
+  display: inline-flex;
+  border-radius: 20px;
+  box-shadow: 12px 12px 28px black;
+  text-align: left;
+}
+
+.main-img {
+  margin-top: 100px;
+}
+
+.woman-img {
+  position: relative;
+  z-index: -2;
+  margin-left: -80px;
+}
+
+.box-img {
+  position: absolute;
+  top: 39%;
+  left: 15.5%;
+}
+
+.content {
+  margin-top: 60px;
+  margin-left: 60px;
+}
+
+h1 {
+  margin: 20px 12px 60px 50px;
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+
+.faq {
+  margin: 50px;
+  width: 420px;
+}
+
+h2 {
+  font-weight: 200;
+}
+
+h2:hover {
+  color: hsl(14, 88%, 65%);
+  transition: 0.35s ease-in;
+  cursor: pointer;
+}
+
+p {
+  display: none;
+}
